@@ -1,4 +1,5 @@
 import SectionReveal from './SectionReveal'
+import { Link } from 'react-router-dom'
 
 const workflow = ['RESEARCH', 'STRUCTURE', 'GENERATE', 'VERIFY', 'EDIT', 'DISTRIBUTE']
 
@@ -63,9 +64,12 @@ export default function AISection() {
             </div>
           ))}
         </div>
-        <a href="/ai-content-system" className="mt-6 inline-block text-sm font-medium text-zinc-900 transition hover:text-teal-700">
+        <Link
+          to="/ai-content-system"
+          className="mt-6 inline-block text-sm font-medium text-zinc-900 transition hover:text-teal-700"
+        >
           Explore the system →
-        </a>
+        </Link>
       </article>
     </SectionReveal>
   )
