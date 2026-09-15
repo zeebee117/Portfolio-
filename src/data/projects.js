@@ -1,0 +1,60 @@
+export const projects = [
+  {
+    id: 'zid',
+    number: '01',
+    title: 'ZID',
+    subtitle: 'Decentralized Identity & Verifiable Credential Platform',
+    description:
+      'A zero-trust identity platform built around decentralized identity, verifiable credentials and secure verification workflows.',
+    tags: ['React', 'Node.js', 'Express', 'JWT', 'RSA', 'IPFS', 'Blockchain', 'Security'],
+    role: 'Primary technical contributor',
+    highlights: [
+      'MetaMask signature login',
+      'DID registration and approval',
+      'Verifiable credential issuance',
+      'RSA-based signing',
+      'SHA-256 hashing',
+      'Blockchain anchoring',
+      'Pinata IPFS',
+      'Revocation and expiration checks',
+      'Multi-authority credential approval',
+      'Verifier validation',
+      'Security middleware and API protection',
+    ],
+    route: '/work/zid',
+  },
+  {
+    id: 'logbook360',
+    number: '02',
+    title: 'LogBook360',
+    subtitle: 'Product Content System',
+    description:
+      'An experiment in turning one SaaS product into a structured content engine — from product research to articles, social content and distribution ideas.',
+    tags: ['AI', 'Research', 'SEO', 'Product Content', 'Content Systems'],
+    role: 'Product → Story → Distribution',
+    flow: ['PRODUCT', 'PROBLEM', 'STORY', 'CONTENT', 'DISTRIBUTION'],
+    route: '/work/logbook360',
+  },
+  {
+    id: 'dr-maya',
+    number: '03',
+    title: 'Dr. Maya',
+    subtitle: 'Responsive Therapy Website',
+    description:
+      'A responsive website focused on information hierarchy, trust, clear navigation and conversion.',
+    tags: ['HTML5', 'Tailwind CSS', 'JavaScript', 'Design', 'UX'],
+    role: 'Design, responsive frontend and UX structure',
+    route: '/work/dr-maya',
+  },
+  {
+    id: 'premji-gems',
+    number: '04',
+    title: 'Premji Gems',
+    subtitle: 'AI-assisted Creative Content',
+    description:
+      'AI-assisted visual concepts, creative direction and social content experiments for a jewellery brand.',
+    tags: ['AI', 'Visual Content', 'Creative Direction', 'Social Content'],
+    role: 'Prompting, visual ideation and content adaptation',
+    route: '/work/premji-gems',
+  },
+]
